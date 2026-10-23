@@ -1,0 +1,12 @@
+{
+  "name": "edgar-hw6-nodeapp",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A small Node.js application for the CSIT314 Jenkins and GitHub exercise",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js"
+  },
+  "license": "MIT"
+}
