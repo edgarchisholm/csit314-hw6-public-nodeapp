@@ -8,7 +8,7 @@ pipeline {
       steps { sh 'npm test' }
     }
     stage('Package') {
-      steps { sh 'npm pack' }
+      steps { sh 'rm -f edgar-hw6-nodeapp-*.tgz && npm pack' }
     }
   }
   post {
